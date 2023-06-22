@@ -1,12 +1,7 @@
 import redis
 
 # Connect to Redis
-# r = redis.Redis(host='your host here!', port=17474, password='password')
-
-r = redis.Redis(
-  host='redis-16571.c293.eu-central-1-1.ec2.cloud.redislabs.com',
-  port=16571,
-  password='hAtjcrludDL3IofW4mtnFdBbJbzlbesk')
+r = redis.Redis(host='your host here!', port=123456, password='password')
 
 
 def identify_user():
